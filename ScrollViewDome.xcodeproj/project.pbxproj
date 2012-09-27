@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3889881516144CE100982FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889881416144CE100982FEA /* UIKit.framework */; };
+		3889881716144CE100982FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889881616144CE100982FEA /* Foundation.framework */; };
+		3889881916144CE100982FEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3889881816144CE100982FEA /* CoreGraphics.framework */; };
+		3889881F16144CE100982FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3889881D16144CE100982FEA /* InfoPlist.strings */; };
+		3889882116144CE100982FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3889882016144CE100982FEA /* main.m */; };
+		3889882516144CE100982FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3889882416144CE100982FEA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3889881016144CE100982FEA /* ScrollViewDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3889881416144CE100982FEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3889881616144CE100982FEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3889881816144CE100982FEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3889881C16144CE100982FEA /* ScrollViewDome-Info.plist */ = {isa = PBXFileReference; path = "ScrollViewDome-Info.plist"; sourceTree = "<group>"; };
+		3889881E16144CE100982FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3889882016144CE100982FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3889882216144CE100982FEA /* ScrollViewDome-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollViewDome-Prefix.pch"; sourceTree = "<group>"; };
+		3889882316144CE100982FEA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3889882416144CE100982FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3889880D16144CE100982FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889881516144CE100982FEA /* UIKit.framework in Frameworks */,
+				3889881716144CE100982FEA /* Foundation.framework in Frameworks */,
+				3889881916144CE100982FEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3889880516144CE000982FEA = {
+			isa = PBXGroup;
+			children = (
+				3889881A16144CE100982FEA /* ScrollViewDome */,
+				3889881316144CE100982FEA /* Frameworks */,
+				3889881116144CE100982FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3889881116144CE100982FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3889881016144CE100982FEA /* ScrollViewDome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3889881316144CE100982FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3889881416144CE100982FEA /* UIKit.framework */,
+				3889881616144CE100982FEA /* Foundation.framework */,
+				3889881816144CE100982FEA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3889881A16144CE100982FEA /* ScrollViewDome */ = {
+			isa = PBXGroup;
+			children = (
+				3889882316144CE100982FEA /* AppDelegate.h */,
+				3889882416144CE100982FEA /* AppDelegate.m */,
+				3889881B16144CE100982FEA /* Supporting Files */,
+			);
+			path = ScrollViewDome;
+			sourceTree = "<group>";
+		};
+		3889881B16144CE100982FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3889881C16144CE100982FEA /* ScrollViewDome-Info.plist */,
+				3889881D16144CE100982FEA /* InfoPlist.strings */,
+				3889882016144CE100982FEA /* main.m */,
+				3889882216144CE100982FEA /* ScrollViewDome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3889880F16144CE100982FEA /* ScrollViewDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3889882816144CE100982FEA /* Build configuration list for PBXNativeTarget "ScrollViewDome" */;
+			buildPhases = (
+				3889880C16144CE100982FEA /* Sources */,
+				3889880D16144CE100982FEA /* Frameworks */,
+				3889880E16144CE100982FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewDome;
+			productName = ScrollViewDome;
+			productReference = 3889881016144CE100982FEA /* ScrollViewDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3889880716144CE000982FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3889880A16144CE000982FEA /* Build configuration list for PBXProject "ScrollViewDome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3889880516144CE000982FEA;
+			productRefGroup = 3889881116144CE100982FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3889880F16144CE100982FEA /* ScrollViewDome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3889880E16144CE100982FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889881F16144CE100982FEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3889880C16144CE100982FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889882116144CE100982FEA /* main.m in Sources */,
+				3889882516144CE100982FEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3889881D16144CE100982FEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3889881E16144CE100982FEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3889882616144CE100982FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3889882716144CE100982FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3889882916144CE100982FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewDome/ScrollViewDome-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewDome/ScrollViewDome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3889882A16144CE100982FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewDome/ScrollViewDome-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewDome/ScrollViewDome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3889880A16144CE000982FEA /* Build configuration list for PBXProject "ScrollViewDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889882616144CE100982FEA /* Debug */,
+				3889882716144CE100982FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3889882816144CE100982FEA /* Build configuration list for PBXNativeTarget "ScrollViewDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889882916144CE100982FEA /* Debug */,
+				3889882A16144CE100982FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3889880716144CE000982FEA /* Project object */;
+}
